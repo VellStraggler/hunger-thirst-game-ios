@@ -27,6 +27,14 @@ final class TextSurvivalTests: XCTestCase {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
     }
+    
+    func testThatPasses() throws {
+        XCTAssertTrue(true, "This test should pass")
+    }
+    
+    func testThatFails() throws {
+        XCTAssertTrue(false, "This test should fail")
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
