@@ -21,7 +21,7 @@ jobs:
         xcodebuild test \
           -project TextSurvival.xcodeproj \
           -scheme TextSurvival \
-          -showdestinations
-#          -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest'
-    - name: List Simulators
-      run: xcrun simctl list devices available
+#          -showdestinations
+          -destination 'platform=iOS Simulator,name=iPhone 17,OS=latest'
+#    - name: List Simulators
+#      run: xcrun simctl list devices available
