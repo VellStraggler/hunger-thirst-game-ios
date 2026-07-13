@@ -21,4 +21,5 @@ jobs:
         xcodebuild test \
           -project TextSurvival.xcodeproj \
           -scheme TextSurvival \
-          -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest'
+          -showdestinations
+#          -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest'
